@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Polymarket Arb — Dashboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="header">Polymarket Arb — Certainty Dashboard</header>
+
+    <main class="grid">
+      <section class="panel" id="system-status">
+        <h2>System Status</h2>
+        <div class="content monospace" id="system-status-content">—</div>
+      </section>
+
+      <section class="panel" id="wallet-balance">
+        <h2>Wallet & Balance</h2>
+        <div class="content monospace" id="wallet-content">—</div>
+      </section>
+
+      <section class="panel large" id="entry-info">
+        <h2>Entry / Re-entry</h2>
+        <div class="content monospace" id="entry-content">—</div>
+      </section>
+
+      <section class="panel" id="open-position">
+        <h2>Open Position</h2>
+        <div class="content monospace" id="open-content">—</div>
+      </section>
+
+      <section class="panel log" id="trades-log">
+        <h2>Trades Log</h2>
+        <div class="content monospace" id="trades-content">—</div>
+      </section>
+
+      <section class="panel" id="orderbooks">
+        <h2>Orderbooks (Top Levels)</h2>
+        <div class="content monospace" id="books-content">—</div>
+      </section>
+    </main>
+
+    <footer class="footer monospace" id="footer">Local mock data (press "Use Live WS" to attempt a websocket)</footer>
+
+    <div class="controls">
+      <button id="btn-toggle-mock">Pause Mock</button>
+      <button id="btn-use-ws">Use Live WS</button>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

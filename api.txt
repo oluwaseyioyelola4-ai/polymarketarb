@@ -1,0 +1,3 @@
+api key   =019be2f5-7405-70e8-aa25-c254bd27abb7
+secret   =vxgEWl1XML3vISm7_I1oGcXDgXvU3L3QK2oiaJyI3eM=
+passphrase    =afb7637a2bbb54306bbab343deca9f8a4efa4a2d86d4766849d45e9c3744a3d1
